@@ -1,0 +1,7 @@
+<h2>Movies</h2>
+<ul>
+  {{#each movies}}
+    <li><a href="/movies/{{id}}">{{title}} - {{genre}}</a></li>
+  {{/each}}
+</ul>
+<h5><a href="/movies/create">Create new Movie</a></h5>
